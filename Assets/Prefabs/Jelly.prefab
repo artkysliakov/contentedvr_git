@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33190646455781528}
   - component: {fileID: 65152429573926758}
   - component: {fileID: 23906810413849626}
-  - component: {fileID: 111736541220624948}
+  - component: {fileID: 95217335508539008}
   - component: {fileID: 114377812855758946}
   m_Layer: 0
   m_Name: Jelly
@@ -97,20 +97,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!111 &111736541220624948
-Animation:
+--- !u!95 &95217335508539008
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1779614965772196}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 63fc44af550a32c418c0ed7db28d3e79, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05e7e5eb3f75b394782ea9e52e5c8837, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114377812855758946
 MonoBehaviour:
   m_ObjectHideFlags: 1
